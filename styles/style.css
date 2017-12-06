@@ -122,21 +122,25 @@ nav label:before {
       transition: all .5s;
       position: absolute;
       width: 80%;
-	}
+  }
+  
 	nav li {
 		flex: none; 
 		width: 100%;
 		border-bottom: solid 1px #777;
-	} 
+  }
+
 	nav input[type="checkbox"]:checked + ul  {
 		transform: translateY(-100%);
 		width: 80%;
 		background: #999;   
       transition: all .5s;
-	}
+  }
+  
 	nav label{
       display: block;
-   }  
+  }  
+  
 	nav input[type="checkbox"]:checked + ul li:nth-child(1){
 		background: #777; 
 		color: #fff;
