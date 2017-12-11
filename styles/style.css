@@ -57,6 +57,8 @@ nav ul {
 	max-width: 1080px; 
 	margin: 0 auto;		
   background: rgb(161, 161, 161);
+  list-style: none;
+  text-transform: uppercase;
 }
 nav ul, nav li {
 	flex: 1;	
