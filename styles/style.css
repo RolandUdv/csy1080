@@ -121,14 +121,14 @@ nav label:before {
 	nav ul {
 		transform: translateY(-120%);
 		box-shadow: 0 0 5px rgba(0,0,0, .7);
-      transition: all .5s;
-      position: absolute;
-      width: 80%;
+    transition: all .5s;
+    position: absolute;
+    width: 80%;
   }
   
 	nav li {
 		flex: none; 
-		width: 80%;
+		width: 100%;
 		border-bottom: solid 1px #777;
   }
 
@@ -140,7 +140,7 @@ nav label:before {
   }
   
 	nav label{
-      display: block;
+    display: block;
   }  
   
 	nav input[type="checkbox"]:checked + ul li:nth-child(1){
