@@ -124,8 +124,8 @@ nav label:before {
     transition: all .5s;
     position: absolute;
     width: auto;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
 	nav li {
@@ -137,8 +137,8 @@ nav label:before {
 	nav input[type="checkbox"]:checked + ul  {
 		transform: translateY(0%);
     width: auto;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
 		background: #999;   
     transition: all .5s;
   }
