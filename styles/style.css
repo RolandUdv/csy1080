@@ -17,7 +17,7 @@ body {
 .nav {
   order: -1;
   padding: 1em;
-  background: rgb(149, 194, 215);
+  background: #555;
 }
 
 .footer {
@@ -119,7 +119,7 @@ nav label:before {
       position: relative;
    }
 	nav ul {
-		transform: translateY(0);
+		transform: translateY(-120%);
 		box-shadow: 0 0 5px rgba(0,0,0, .7);
       transition: all .5s;
       position: absolute;
@@ -133,10 +133,10 @@ nav label:before {
   }
 
 	nav input[type="checkbox"]:checked + ul  {
-		transform: translateY(-100%);
+		transform: translateY(0%);
 		width: 80%;
 		background: #999;   
-      transition: all .5s;
+    transition: all .5s;
   }
   
 	nav label{
