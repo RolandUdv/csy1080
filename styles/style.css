@@ -123,9 +123,8 @@ nav label:before {
 		box-shadow: 0 0 5px rgba(0,0,0, .7);
     transition: all .5s;
     position: absolute;
-    width: auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 50%;
+    margin: auto;
   }
   
 	nav li {
