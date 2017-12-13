@@ -138,6 +138,7 @@ nav label:before {
 	nav input[type="checkbox"]:checked + ul  {
 		transform: translateY(0%);
     width: auto;
+    position: absolute;
     min-width: 280px;
     margin-left: 25%;
     margin-right: 25%;
