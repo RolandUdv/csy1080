@@ -44,6 +44,24 @@ body {
   background: rgb(224, 220, 199);
 }
 
+.fa {
+  color: #000000;
+}
+
+.top-bar {
+  text-align: left;
+  padding: 10px;
+  background-color: #888;
+}
+
+.social-media {
+  margin: 10px;
+}
+
+.top-bar {
+  color: #000000;
+}
+
 @media (max-width: 30em) {
   .main {
     flex: 1 0 auto;
