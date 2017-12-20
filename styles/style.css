@@ -19,7 +19,14 @@ body {
   font-weight: 600;
   order: -1;
   padding: 1em;
-  background: #555;
+  background: rgba(15,14,78,1);
+  background: -moz-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(15,14,78,1)), color-stop(100%, rgba(249,7,132,1)));
+  background: -webkit-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  background: linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0e4e', endColorstr='#f90784', GradientType=1 );
 }
 
 .wrapper {
@@ -105,8 +112,7 @@ body {
 
 nav ul {
 	display: flex; 
-	flex-wrap: wrap; 
-	max-width: 1080px; 
+	flex-wrap: wrap;  
 	margin: 0 auto;		
   background: rgb(161, 161, 161);
   list-style: none;
@@ -175,7 +181,7 @@ nav label:before {
 		box-shadow: 0 0 5px rgba(0,0,0, .7);
     transition: all .5s;
     position: absolute;
-    width: 50%;
+    width: auto;
     margin: auto;
   }
   
@@ -186,11 +192,10 @@ nav label:before {
   }
 
 	nav input[type="checkbox"]:checked + ul  {
-		transform: translateY(0%);
+    transform: translateY(0%);
     width: auto;
     margin-left: 10%;
-    margin-right: 10%;
-		background: #999;   
+    margin-right: 10%; 
     transition: all .5s;
   }
   
@@ -199,7 +204,7 @@ nav label:before {
   }  
   
 	nav input[type="checkbox"]:checked + ul li:nth-child(1){
-		background: #777; 
+		background: #0e164e; 
 		color: #fff;
 	}  
 }
