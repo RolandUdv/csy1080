@@ -22,12 +22,6 @@ body {
   background: #555;
 }
 
-.footer {
-  padding: 1em;
-  background: rgb(27, 83, 110);
-  text-align: center;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -36,7 +30,7 @@ body {
 
 .main {
   padding: 1em;
-  background: rgb(187, 179, 135);
+  background: #eaeaea;
   text-align: center;
 }
 
@@ -68,6 +62,27 @@ body {
   font-size: 18px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.top-bar-about a:-webkit-any-link {
+  font-family: 'Open Sans', arial, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 1em;
+  background: #333;
+}
+
+.footer, .footer-content a:-webkit-any-link {
+  font-family: 'Open Sans', arial, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 @media (max-width: 30em) {
