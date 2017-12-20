@@ -51,7 +51,8 @@ body {
 }
 
 .social-media {
-  margin: 5px;
+  margin: 1px;
+  width: 100%;
 }
 
 .top-bar-title {
@@ -65,10 +66,6 @@ body {
 .top-bar-title, .fa {
   display: inline-block;
   float: left;
-}
-
-.hint-box {
-
 }
 
 .top-bar-about a{
