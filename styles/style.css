@@ -42,6 +42,7 @@ body {
 
 .fa {
   color: #ffffff;
+  padding: 0 8px 0 8px;
 }
 
 .top-bar {
@@ -64,12 +65,22 @@ body {
   text-transform: uppercase;
 }
 
-.top-bar-about a:-webkit-any-link {
+.top-bar-title, .fa {
+  display: inline-block;
+  float: left;
+}
+
+.top-bar-about a:-webkit-any-link{
   font-family: 'Open Sans', arial, sans-serif;
   text-align: center;
   font-size: 18px;
   color: #ffffff;
   text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .footer {
