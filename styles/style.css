@@ -67,7 +67,7 @@ body {
   float: left;
 }
 
-.top-bar-about a:-webkit-any-link{
+.top-bar-about a{
   font-family: 'Open Sans', arial, sans-serif;
   text-align: center;
   font-size: 18px;
@@ -76,8 +76,13 @@ body {
   display: inline-block;
   list-style: none;
   float: right;
+  padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.top-bar-about a:hover {
+  font-weight: 600;
 }
 
 .footer {
@@ -153,6 +158,10 @@ body {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+  }
+
+  .logo {
+    color: #fff;
   }
   
   /* menu */
@@ -230,8 +239,9 @@ body {
   }
   
   /* 48em = 768px */
+  /* 76em = 1216px */
   
-  @media (min-width: 48em) {
+  @media (min-width: 76em) {
     .nav li {
       float: left;
     }
