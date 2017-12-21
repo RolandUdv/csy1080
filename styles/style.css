@@ -170,7 +170,7 @@ flex: 1;
 
 /* Responsive: */
 
-@media (min-width: 480px) {
+@media (min-width: 1175px) {
 .layout {
   display: flex;
 }
@@ -333,7 +333,7 @@ background: transparent;
   /* 48em = 768px */
   /* 76em = 1216px */
   
-  @media (min-width: 76em) {
+  @media (min-width: 1275px) {
     .nav li {
       float: left;
     }
