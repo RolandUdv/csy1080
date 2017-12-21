@@ -172,6 +172,24 @@ body {
   text-align: center;
 }
 
+/* Images in content */
+
+.col-1-img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.col-1-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+
+
 /* Layout: */
 
 .col-main {
