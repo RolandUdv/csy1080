@@ -9,6 +9,8 @@ Fonts from Google Fonts - more at https://fonts.google.com
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');*/
 
+
+/* ----------LOGO START---------- */
 .website-logo {
   width: 250px;
   padding-right: 0px;
@@ -28,6 +30,8 @@ Fonts from Google Fonts - more at https://fonts.google.com
   margin: auto;
   width: 200px;
 }
+
+/* ----------LOGO END---------- */
 
 body {
   display: flex;
