@@ -180,6 +180,11 @@ body {
   height: 250px;
   margin: auto;
   border-radius: 50%;
+  box-shadow: 10px 8px 30px 3px;
+}
+
+.col-1-img:hover {
+  box-shadow: 10px 10px 30px 8px;
 }
 
 .col-1-title {
@@ -187,8 +192,6 @@ body {
   font-size: 24px;
   font-weight: 800;
 }
-
-
 
 /* Layout: */
 
