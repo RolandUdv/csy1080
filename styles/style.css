@@ -49,12 +49,14 @@ body {
 
 @media (min-width: 480px) {
   .main {
+    /*padding-top: 10%; for fixed nav/top bar */
     padding: 1em;
     margin: 0;
   }
 }
 
 .main {
+  /*padding-top: 160px; for fixed nav/top bar */
   background: #fff;
   text-align: left;
 }
@@ -234,7 +236,21 @@ background: transparent;
     font-weight: 600;
     font-size: 18px;
   }
-  
+
+  /* For a fixed top/nav bar 
+  .nav {
+    position: fixed;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .top-bar {
+    position: fixed;
+    width: 100%;
+    padding-top: 6em;
+    padding-bottom: 5px;
+  }*/
+
   .nav li a:hover,
   .nav .menu-btn:hover {
     color: #fff;
