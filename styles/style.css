@@ -459,8 +459,8 @@ input:focus, textarea:focus {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;
 	width: 100%;
-	border: rgb(189, 29, 181); solid 4px;
-	cursor:pointer;
+	border: rgb(189, 29, 181) solid 4px;
+	cursor: pointer;
 	background-color: rgb(189, 29, 181);
 	color:white;
 	font-size:24px;
