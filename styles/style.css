@@ -206,7 +206,7 @@ padding-bottom: 15px;
 
 /* Contact Form */
 
-.contact-form {
+/*.contact-form {
   background: rgba(15,14,78,1);
   background: -moz-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
   background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(15,14,78,1)), color-stop(100%, rgba(249,7,132,1)));
@@ -323,6 +323,189 @@ input[type=message], select, textarea {
   font-family: "Work Sans";
   font-size: 24px;
   font-weight: 700;
+}*/
+
+/* ------------------------------NEW CONTACT --------------------------- */
+/* Source/Forked from: https://codepen.io/rexkirby/pen/Fdnlz */
+
+#feedback-page{
+	text-align: center;
+}
+
+#contact-form-title-top {
+  font-style: "Work Sans";
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+#form-main{
+  width:100%;
+  margin: auto;
+  padding-top:30px;
+  padding-bottom: 30px;
+  background: rgba(15,14,78,1);
+  background: -moz-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(15,14,78,1)), color-stop(100%, rgba(249,7,132,1)));
+  background: -webkit-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  background: linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0e4e', endColorstr='#f90784', GradientType=1 );
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+  padding: 20px;
+	padding-bottom:50px;
+	width: 40%;
+  margin: auto;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #fff;
+	color: #000;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(https://image.flaticon.com/icons/svg/74/74472.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(https://image.flaticon.com/icons/svg/74/74472.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(https://image.flaticon.com/icons/svg/126/126516.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(https://image.flaticon.com/icons/svg/650/650143.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(https://image.flaticon.com/icons/svg/650/650143.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#tel {
+  background-image: url(https://image.flaticon.com/icons/svg/9/9243.svg);
+  background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: rgb(189, 29, 181); solid 4px;
+	cursor:pointer;
+	background-color: rgb(189, 29, 181);
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-weight: bold;
+}
+	
+.submit:hover {
+	color: #000;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+    margin: auto;
+		width: 90%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
 }
 
 /* Layout: */
