@@ -167,7 +167,8 @@ body {
   display: block;
   margin: auto;
   height: 320px;
-  width: 400px;
+  width: 100%;
+  max-width: 350px;
   padding-top: 30px;
   padding-bottom: 30px;
 
