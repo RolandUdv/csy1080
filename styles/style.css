@@ -54,7 +54,7 @@ body {
 @media (max-width: 30em) {
   .main {
     flex: 1 0 auto;
-    padding: 10px 5px 10px 5px;
+    /*padding: 10px 5px 10px 5px;*/
   }
 }
 
@@ -170,6 +170,7 @@ body {
   width: 420px;
   padding-top: 30px;
   padding-bottom: 30px;
+
 }
 
 @media (min-width: 580px) {
