@@ -161,6 +161,43 @@ body {
 /* ----------CONTENT START---------- */
 /* Source/forked from: https://codepen.io/machal/pen/wobjoq */
 
+/* Video on Index */
+
+.front-video iframe {
+  display: block;
+  margin: auto;
+  height: 350px;
+  width: 420px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 580px) {
+  .front-video iframe {
+    max-width: 80%;
+    width: 80%;
+    height: 560px;
+    max-height: 1020px;
+  }
+}
+
+/*.front-video {
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; 
+} 
+
+.front-video iframe, .front-video object, .front-video embed { 
+  position: absolute; 
+  top: 0; 
+  bottom: 20px;
+  left: 25%; 
+  width: 50%; 
+  height: 50%;
+}*/
+
 .background-1 {
   background-color: #eaeaea;
   border-radius: 15px;
