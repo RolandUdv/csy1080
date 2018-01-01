@@ -422,12 +422,12 @@ input[type=message], select, textarea {
 	background-repeat: no-repeat;
 }
 
-#email:focus{
+/*#email:focus{
 	background-image: url(https://image.flaticon.com/icons/svg/650/650143.svg);
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
-}
+}*/
 
 #comment{
 	background-image: url(https://image.flaticon.com/icons/svg/650/650143.svg);
