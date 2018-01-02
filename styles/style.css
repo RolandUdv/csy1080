@@ -699,10 +699,29 @@ background: transparent;
 }
 
 .validation {
-  
+
 }
 
 /* ----------SITE VALIDATION END---------- */
+
+/* ----------SPECIALISATION START---------- */
+
+.specialisation-title {
+  font-size: 34px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  text-align: center;
+  line-height: 1em;
+}
+
+.software-photo-1, .software-photo-2 {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* ----------SPECIALISATION END---------- */
 
 /* ----------ERROR 404---------- */
 
