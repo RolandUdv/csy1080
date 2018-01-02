@@ -592,6 +592,36 @@ background: transparent;
 
 /* ----------COMPARISON END---------- */
 
+/* ----------MGP AND UI START---------- */
+
+.mgp-title {
+  font-size: 34px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  text-align: center;
+  line-height: 1em;
+}
+
+.mgp-sub {
+  font-size: 22px;
+  font-family: "Work Sans";
+  font-weight: 500;
+  text-align: left;
+  padding: 1em;
+  line-height: 1em;
+}
+
+/* ----------MGP AND UI END---------- */
+
+/* ----------ERROR 404---------- */
+
+.error404 {
+  text-align: center;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  line-height: 1em;
+}
+
 /*------------------------------------------------*/
 
 /* Navigation bar source/forked from: https://codepen.io/mutedblues/pen/MmPNPG */
