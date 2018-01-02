@@ -651,6 +651,57 @@ background: transparent;
 
 /* ----------MGP AND UI END---------- */
 
+/* ----------SITE VALIDATION START---------- */
+
+.site-validation-title {
+  font-size: 34px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  text-align: center;
+  line-height: 1em;
+}
+
+.validation-sub {
+  font-size: 20px;
+  font-family: "Work Sans";
+  font-weight: 500;
+  text-align: left;
+  padding: 1em;
+  line-height: 1em;
+}
+
+.site-wireframe {
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-color: #eaeaea;
+  padding-top: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; 
+  padding-bottom: 30px;
+}
+
+.mobile-wireframes, .desktop-homepage-wireframe, .desktop-page-wireframe, .desktop-footer-wireframe {
+  max-width: 300px;
+}
+
+@media (min-width: 560px) {
+  .mobile-wireframes, .desktop-homepage-wireframe, .desktop-page-wireframe, .desktop-footer-wireframe  {
+    max-width: 80%;
+  }
+}
+
+.wireframe-title {
+  padding-top: 22px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  list-style-type: none;
+}
+
+/* ----------SITE VALIDATION END---------- */
+
 /* ----------ERROR 404---------- */
 
 .error404 {
