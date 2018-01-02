@@ -611,6 +611,44 @@ background: transparent;
   line-height: 1em;
 }
 
+.list-of-websites {
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-color: #eaeaea;
+  padding-top: 50px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; 
+}
+
+.ted-desktop, .pocketnow-desktop {
+  max-width: 350px;
+}
+
+@media (min-width: 560px) {
+  .ted-desktop, .pocketnow-desktop {
+    max-width: 80%;
+  }
+}
+
+.pocketnow-desktop, .pocketnow-mobile, .techusiast-mobile, .androidauthority-mobile, .ted-desktop, .ted-mobile, .vistaprint-mobile {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pocketnow-mobile, .techusiast-mobile, .androidauthority-mobile, .ted-mobile, .vistaprint-mobile {
+  max-width: 300px;
+  height: auto;
+}
+
+@media (min-width: 560px) {
+  .pocketnow-mobile, .techusiast-mobile, .androidauthority-mobile, .ted-mobile, .vistaprint-mobile {
+    max-width: 400px;
+  }
+}
+
+
+
 /* ----------MGP AND UI END---------- */
 
 /* ----------ERROR 404---------- */
