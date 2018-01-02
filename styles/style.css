@@ -608,7 +608,7 @@ background: transparent;
   font-weight: 500;
   text-align: left;
   padding: 1em;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 .list-of-websites {
@@ -647,8 +647,6 @@ background: transparent;
   }
 }
 
-
-
 /* ----------MGP AND UI END---------- */
 
 /* ----------SITE VALIDATION START---------- */
@@ -667,7 +665,7 @@ background: transparent;
   font-weight: 500;
   text-align: left;
   padding: 1em;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 .site-wireframe {
