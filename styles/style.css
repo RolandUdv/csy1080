@@ -1,14 +1,10 @@
 /*
 Author: Roland Udvarlaki
-
-Note: Visit http://www.techusiast.com for Technology News, Reviews and Analysis
-
 All Rights Reserved - Credits given to their representative authors.
 ----------------------------------------
 Fonts from Google Fonts - more at https://fonts.google.com 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');*/
-
 
 /* ----------LOGO START---------- */
 .website-logo {
@@ -160,7 +156,7 @@ body {
 /* ----------CONTENT START---------- */
 /* Source/forked from: https://codepen.io/machal/pen/wobjoq */
 
-/* Video on Index */
+/* Video on Homepage and Specialisation */
 
 .front-video iframe {
   display: block;
@@ -170,7 +166,6 @@ body {
   max-width: 350px;
   padding-top: 30px;
   padding-bottom: 30px;
-
 }
 
 @media (min-width: 580px) {
@@ -225,98 +220,6 @@ padding-bottom: 15px;
   text-shadow: 2px 2px 2px pink;
 }
 
-/* Contact Form */
-
-/*.contact-form {
-  background: rgba(15,14,78,1);
-  background: -moz-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(15,14,78,1)), color-stop(100%, rgba(249,7,132,1)));
-  background: -webkit-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
-  background: -o-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
-  background: -ms-linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
-  background: linear-gradient(45deg, rgba(15,14,78,1) 0%, rgba(249,7,132,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0e4e', endColorstr='#f90784', GradientType=1 );
-  padding: 0;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-input[type=text],
-input[type=message],
-input[type=subject],
-input[type=tel],
-input[type=email], select, textarea {
-  float: right;
-  width: 80%;
-  padding: 10px;
-}
-
-input[type=message], select, textarea {
-  height: 80px;
-}
-
-
-#form {
-  min-width:400px;
-  max-width:1000px;
-  height: 560px;
-  margin:auto;
-  font-family: sans-serif;
-}
-
-.contact-form-title {
-  padding-top: 30px !important;
-  color: #fff !important;
-  font-size: 40px !important;
-  font-weight: 800;
-  text-align: center;
-}
-
-#form h2 {
-  padding: 10px;
-  color:#fff;
-  font-size:16px;
-  margin:0;
-  text-transform: uppercase;
-}
-
-#form p {
-  text-transform: initial;
-  padding: 10px;
-  font-size:15px;
-  color:#222222;
-}
-
-#form button {
-  width: 100px;
-  height: 50px;
-  background-color: #333;
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  cursor:pointer;
-  border-color: transparent;
-  border-radius: 8px;
-  box-shadow: 1px 1px 1px grey;
-}
-
-.contact-button {
-  display: block;
-  text-align: center;
-  margin-top: 70px;
-}
-
-#form button:hover {
-  background-color: rgb(255, 255, 255);
-  color: #000;
-  font-weight: bold;
-}
-
-.required {
-  font-size: 18px;
-  color:#dd6666;
-}
-
 /* Images in content */
 
 .col-1-img {
@@ -346,7 +249,7 @@ input[type=message], select, textarea {
   font-weight: 700;
 }*/
 
-/* ------------------------------NEW CONTACT --------------------------- */
+/* ----------NEW CONTACT---------- */
 /* Source/Forked from: https://codepen.io/rexkirby/pen/Fdnlz */
 
 #feedback-page{
@@ -420,7 +323,7 @@ input[type=message], select, textarea {
 	border:#30aed6 solid 3px;
 }
 
-/* Icons ---------------------------------- */
+/* ***** ICONS ***** */
 #name{
 	background-image: url(https://image.flaticon.com/icons/svg/74/74472.svg);
 	background-size: 30px 30px;
@@ -546,8 +449,6 @@ flex: 1;
     display: flex;
   }
 }
-
-/* etc */
 
 .container {
 max-width: 100%;
@@ -722,6 +623,8 @@ background: transparent;
   margin: auto;
 }
 
+/* ----------SPECIALISATION END---------- */
+
 /* ----------GLOSSARY START---------- */
 
 .glossary-page-title {
@@ -770,8 +673,6 @@ background: transparent;
 
 /* ----------GLOSSARY END---------- */
 
-/* ----------SPECIALISATION END---------- */
-
 /* ----------ERROR 404---------- */
 
 .error404 {
@@ -781,7 +682,7 @@ background: transparent;
   line-height: 1em;
 }
 
-/*------------------------------------------------*/
+/*----------NAVIGATION START----------*/
 
 /* Navigation bar source/forked from: https://codepen.io/mutedblues/pen/MmPNPG */
   /* Navigation Header */
@@ -844,7 +745,7 @@ background: transparent;
     border-radius: 7px;
   }
   
-  /* logo */
+  /* Logo */
   .nav .logo {
     display: block;
     float: left;
@@ -857,15 +758,13 @@ background: transparent;
     color: #fff;
   }
   
-  /* menu */
+  /* Menu */
   
   .nav .menu {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
   }
-  
-  /* menu icon */
   
   .nav .menu-icon {
     cursor: pointer;
@@ -904,7 +803,7 @@ background: transparent;
     top: -5px;
   }
   
-  /* menu btn */
+  /* Menu button */
   
   .nav .menu-btn {
     display: none;
@@ -931,8 +830,7 @@ background: transparent;
     top: 0;
   }
   
-  /* 48em = 768px */
-  /* 76em = 1216px */
+  /* Responsive */
   
   @media (min-width: 1275px) {
     .nav li {
