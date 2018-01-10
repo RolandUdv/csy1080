@@ -721,6 +721,54 @@ background: transparent;
   margin: auto;
 }
 
+/* ----------GLOSSARY START---------- */
+
+.glossary-page-title {
+  font-size: 32px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  text-align: center;
+  padding: 30px;
+}
+
+.glossary-block {
+  background-color: #eaeaea;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (min-width: 560px){
+  .glossary-block {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}  
+
+.glossary-title{
+  text-align: left;
+  line-height: 1em;
+}
+
+.glossary-title-content {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+@media (min-width: 560px){
+  .glossary-title-content{
+    font-size: 26px;
+  }
+}
+
+.glossary-title-description {
+  padding-bottom: 15px;
+}
+
+/* ----------GLOSSARY END---------- */
+
 /* ----------SPECIALISATION END---------- */
 
 /* ----------ERROR 404---------- */
