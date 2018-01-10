@@ -155,7 +155,6 @@ body {
   width: 200px;
 }
 
-
 /* ----------FOOTER END---------- */
 
 /* ----------CONTENT START---------- */
@@ -562,8 +561,6 @@ margin: 0 2px 2px 0;
 background: transparent;
 }
 
-
-
 /* ----------CONTENT END---------- */
 
 /* ----------COMPARISON START---------- */
@@ -623,6 +620,10 @@ background: transparent;
 
 .ted-desktop, .pocketnow-desktop {
   max-width: 300px;
+}
+
+.list-mgp-ui {
+  list-style: none;
 }
 
 @media (min-width: 560px) {
