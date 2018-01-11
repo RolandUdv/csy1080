@@ -153,103 +153,7 @@ body {
 
 /* ----------FOOTER END---------- */
 
-/* ----------CONTENT START---------- */
-/* Source/forked from: https://codepen.io/machal/pen/wobjoq */
-
-/* Video on Homepage and Specialisation */
-
-.front-video iframe {
-  display: block;
-  margin: auto;
-  height: 320px;
-  width: 100%;
-  max-width: 350px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-@media (min-width: 580px) {
-  .front-video iframe {
-    max-width: 80%;
-    width: 80%;
-    height: 560px;
-    max-height: 1020px;
-  }
-}
-
-.background-1 {
-  background-color: #eaeaea;
-  border-radius: 15px;
-}
-
-.header-top {
-padding-bottom: 15px;
-}
-
-.meet-team, .contact-before {
-  font-size: 36px;
-  font-family: "Work Sans";
-  font-weight: 800;
-  text-align: center;
-}
-
-.team-par, .contact-par {
-  font-size: 26px;
-  font-family: "Work Sans";
-  font-weight: 500;
-  text-align: center;
-}
-
-.contact-col {
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-
-.contact-phone {
-  text-decoration: none;
-  font-size: 42px;
-  font-family: 'Open Sans', arial, sans-serif;
-  font-weight: 600;
-  text-align: center;
-  color: rgb(189, 29, 181);
-  text-shadow: 1px 1px 2px purple;
-}
-
-.contact-phone:hover {
-  color: rgb(192, 9, 119);
-  text-shadow: 2px 2px 2px pink;
-}
-
-/* Images in content */
-
-.col-1-img {
-  display: block;
-  width: 170px;
-  height: 170px;
-  margin: auto;
-  border-radius: 50%;
-  box-shadow: 10px 8px 30px grey;
-}
-
-@media (min-width: 850px) {
-  .col-1-img {
-    width: 250px;
-    height: 250px;
-  }
-}
-
-.col-1-img:hover {
-  box-shadow: 10px 10px 30px 3px;
-}
-
-.col-1-title {
-  text-align: center;
-  font-family: "Work Sans";
-  font-size: 24px;
-  font-weight: 700;
-}*/
-
-/* ----------CONTACT FORM---------- */
+/* ----------CONTACT FORM START---------- */
 /* Source/Forked from: https://codepen.io/rexkirby/pen/Fdnlz */
 
 #feedback-page{
@@ -432,7 +336,105 @@ input:focus, textarea:focus {
 	}
 }
 
-/* Layout: */
+/* ----------FORM END---------- */
+
+/* ----------CONTENT START---------- */
+/* Source/forked from: https://codepen.io/machal/pen/wobjoq */
+
+/* Video on Homepage and Specialisation */
+
+.front-video iframe {
+  display: block;
+  margin: auto;
+  height: 320px;
+  width: 100%;
+  max-width: 350px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 580px) {
+  .front-video iframe {
+    max-width: 80%;
+    width: 80%;
+    height: 560px;
+    max-height: 1020px;
+  }
+}
+
+.background-1 {
+  background-color: #eaeaea;
+  border-radius: 15px;
+}
+
+.header-top {
+padding-bottom: 15px;
+}
+
+.meet-team, .contact-before {
+  font-size: 36px;
+  font-family: "Work Sans";
+  font-weight: 800;
+  text-align: center;
+}
+
+.team-par, .contact-par {
+  font-size: 26px;
+  font-family: "Work Sans";
+  font-weight: 500;
+  text-align: center;
+}
+
+.contact-col {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Decided not to implement it, future release! */
+/*.contact-phone {
+  text-decoration: none;
+  font-size: 42px;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(189, 29, 181);
+  text-shadow: 1px 1px 2px purple;
+}*/
+
+.contact-phone:hover {
+  color: rgb(192, 9, 119);
+  text-shadow: 2px 2px 2px pink;
+}
+
+/* Images in content */
+/* Responsive Column Layout: */
+
+.col-1-img {
+  display: block;
+  width: 170px;
+  height: 170px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 10px 8px 30px grey;
+}
+
+@media (min-width: 850px) {
+  .col-1-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.col-1-img:hover {
+  box-shadow: 10px 10px 30px 3px;
+}
+
+.col-1-title {
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 700;
+}
 
 .col-main {
   flex: 1;  
