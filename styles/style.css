@@ -602,6 +602,43 @@ background: transparent;
   list-style-type: none;
 }
 
+.validation {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 560px){
+  .validation {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.validation-index, .validation-comparison, .validation-validation, .validation-specialisation, .validation-glossary, .validation-mgp {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 560px) {
+  .validation-index, .validation-comparison, .validation-validation, .validation-specialisation, .validation-glossary, .validation-mgp {
+    max-width: 80%;
+  }
+}
+
+.validation-description {
+  font-size: 20px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  text-align: left;
+  padding: 1em;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+
 /* ----------SITE VALIDATION END---------- */
 
 /* ----------SPECIALISATION START---------- */
