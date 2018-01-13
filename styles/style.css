@@ -511,7 +511,7 @@ background: transparent;
   line-height: 1.5em;
 }
 
-.list-of-websites {
+.list-of-websites, .mgp-list {
   margin: auto;
   display: block;
   text-align: center;
